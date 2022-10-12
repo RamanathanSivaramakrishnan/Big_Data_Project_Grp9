@@ -1,0 +1,72 @@
+
+Big Data Analytics -  Project Deliverable 1
+
+1)Team Members:
+Jaissruti Nanthakumar 
+Janani Sri Adanur Rammohan
+Ramanathan Sivaramakrishnan
+Siddharth Jayachandra Babu
+Swathi Rajendran
+ 
+Communication plan to include project artifact repository
+Cumulatively we came up with the idea of taking a dataset related to health. 
+Each one of us came up with a dataset related to different health issues. 
+Heart being the crucial organ of the body, we decided to go with Predicting the Heart Disease dataset.
+Project Repository: 
+ 
+2)  Business Problem or Opportunity, Domain Knowledge (link to information on domain relative to data, problem or opportunity)
+The heart disease is increasing day by day at a rapid rate. Coronary heart disease (CHD) is the most common type of heart disease, 
+where major blood vessels are damaged which supply blood to the heart.
+It would be beneficial to predict the people who are vulnerable to heart disease by identifying the important factors.
+Our idea is to focus on which person has a high risk of developing a heart disease with the medical information in hand.
+There are several factors that increase the risk of heart disease such as smoking habit, Stroke, Blood pressure, Cholesterol, diabetes etc.
+ 
+The dataset is chosen from the world health organization. Heart Disease prediction dataset contains the gender, age, education and health 
+related attributes like smoker, consuming blood pressure medication, prevalent hypertension, total cholesterol. 
+By performing Exploratory data analysis, feature engineering, and visualization on the dataset, 
+we can identify which features can contribute in identifying whether the person will develop a heart disease or not.
+ 
+Dataset Structure:
+ 0   Sex                       int64  
+ 1   Age                       int64  
+ 2   CurrentSmoker             int64  
+ 3   CigsPerDay                float64
+ 4   BPMeds                    float64
+ 5   PrevalentStroke           int64  
+ 6   PrevalentHyp              int64  
+ 7   Diabetes                  int64  
+ 8   TotChol                   float64
+ 9   SysBP                     float64
+ 10  DiaBP                     float64
+ 11  BMI                       float64
+ 12  HeartRate                 float64
+ 13  Glucose                   float64
+ 14  TenYearCHD                int64  
+
+3)  Dataset: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
+4)  Research Objectives and Question(s) (what you are trying to describe or predict with the data)
+
+Is there a correlation exists between the heart rate with various factors
+such as diabetes, total cholesterol, systolic blood pressure, diastolic blood pressure, Body Mass Index?
+
+Does a particular age group have a high risk of developing heart disease?
+
+Is only the medical attributes contributing in identifying the heart disease rather than physical conditions like age, gender etc.?
+
+Identify which medical factor contributes more to heart disease compared with the 10 year CHD?
+
+Identify the threshold value of cholesterol that contributes to heart disease?
+
+Does taking BP medication have a reduced chance of developing heart disease than compared to people who do not take medication?
+
+Which type of blood pressure account contributes more to heart disease?
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
