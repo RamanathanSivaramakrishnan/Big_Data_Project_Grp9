@@ -8,7 +8,7 @@ Ramanathan Sivaramakrishnan
 Siddharth Jayachandra Babu
 Swathi Rajendran
  
-Communication plan to include project artifact repository
+ Communication plan to include project artifact repository
 We are hoping to work on any real world dataset that could make an impact and provide solutions which we could relate to. We explored different platforms such aws registry, kaggle and open source datasets and finally came up with Chicago crime dataset, which is publicly made available by the City of Chicago website
 Project Repository: https://github.com/RamanathanSivaramakrishnan/Big_Data_Project_Grp9
  
@@ -18,32 +18,30 @@ Though the dataset has nearly 7 million rows collected over a time of 20 years. 
  
  
 Dataset Structure:
-case_number          	      STRING
+case_number          	STRING
 date 	        	             TIMESTAMP
-block            	          STRING
-iucr  	         	           STRING
-primary_type                STRING
-description  	              STRING
-location_description        STRING
-arrest                      BOOLEAN
-domestic     	              BOOLEAN
-beat 	                      INTEGER
-district                    INTEGER
-ward	                       INTEGER
-community_area    	         INTEGER
+block            	             STRING
+iucr  	         	             STRING
+primary_type               STRING
+description  	             STRING
+location_description   STRING
+arrest                             BOOLEAN
+domestic     	             BOOLEAN
+beat 	                          INTEGER
+district                           INTEGER
+ward	                          INTEGER
+community_area    	INTEGER
 fbi_code      	             STRING
 x_coordinate                FLOAT
 y_coordinate                FLOAT
-year 	                      INTEGER
-updated_on	                 TIMESTAMP
-latitude       	            FLOAT
+year 	                          INTEGER
+updated_on	             TIMESTAMP
+latitude       	             FLOAT
 longitude     	             FLOAT
-location       	            STRING
+location       	             STRING
  
  
 3)  Dataset: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/data
-
-
 4)  Research Objectives and Question(s) (what you are trying to describe or predict with the data)
  Is there a correlation exists between the arrest with various factors
 such as location, primary type, domestic, district, community area?
@@ -52,13 +50,3 @@ Is location being considered as the main attribute when correlated with theft.?
 Identify which theft has high frequency or occurrence in the past few years?.
 Identify which blocks are more susceptible to crimes?.
 Does the arrest and the  type of theft have any correlation?.
-
- 
- 
- 
- 
- 
- 
- 
- 
-
